@@ -19,7 +19,7 @@ public class Main {
                     System.out.println("");
                     System.out.println("known for her having heavenly restriction and weilding\n" + "the split-soul katana, Maki will put up a great fight!");
                     System.out.println("");
-                    System.out.println("Choose your attack but hurry, Sakuna is approaching!");
+                    System.out.println("Choose your attack, Sakuna is approaching!");
                     System.out.println("");
                     System.out.println("1.Split-Soul katana slice (30hp)  2.Dragon bone vertical Slash (20hp)");
                     int makiMove = sc.nextInt();
@@ -42,7 +42,7 @@ public class Main {
                     System.out.println("");
                     System.out.println("Being 2nd to Gojo and with Rika by his side, Sakuna won't stand a chance!");
                     System.out.println("");
-                    System.out.println("Choose your attack but hurry, Sakuna is approaching!");
+                    System.out.println("Choose your attack, Sakuna is approaching!");
                     System.out.println("");
                     System.out.println("1.Rika's Punch (10hp) 2.Domain Expansion: Authentic Mutual Love(60hp)");
                     int yutaMove = sc.nextInt();
@@ -63,7 +63,7 @@ public class Main {
                     System.out.println("");
                     System.out.println("Being the vessel of Sakuna comes with it's benefits\nin addition to being a cursed womb:Death painting");
                     System.out.println("");
-                    System.out.println("Choose your attack but hurry, Sakuna is approaching!");
+                    System.out.println("Choose your attack, Sakuna is approaching!");
                     System.out.println("");
                     System.out.println("1.Black Flash(30hp) 2.Dismantle(50hp)");
                     int yujiMove = sc.nextInt();
