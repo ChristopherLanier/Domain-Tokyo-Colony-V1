@@ -1,8 +1,50 @@
 package org.example;
 import java.util.Scanner;
+class Tokyo{
+
+    private int sakunaHealth;
+    private String playerName;
+    private String attackName;
+
+    //getters
+    public int getSakunaHealth(){
+        return sakunaHealth;
+    }
+    public String getPlayerName(){
+        return playerName;
+    }
+    public String getAttackName(){
+        return attackName;
+    }
+    //setters
+    public void setSakunaHealth(int sakunaHealth) {
+        this.sakunaHealth = sakunaHealth;
+    }
+    public void setPlayerName(String playerName){
+        this.playerName = playerName;
+    }
+    public void setAttackName(String attackName) {
+        this.attackName = attackName;
+    }
+    //methods
 public class Main {
+
+
+
+    }
     public static void main(String[] args) {
-        int sakunaHealth = 100;
+        String userPlayer;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Choose your player: test");
+        userPlayer = sc.nextLine();
+        //object created
+        Tokyo colony = new Tokyo();
+        //object's field 'playerName' updated
+        colony.setPlayerName(userPlayer);
+        //printed to display success
+        System.out.println("You chose: "+colony.getPlayerName());
+
+        /*int sakunaHealth = 100;
 
         //This block needs to run until Sakuna is defeated (health <= 0)
         do {
@@ -87,6 +129,6 @@ public class Main {
         if(sakunaHealth <= 0){
             System.out.println("You did it,Sakuna has been defeated!!");
         }
-        //
+        //*/
     }
 }
